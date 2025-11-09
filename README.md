@@ -35,17 +35,23 @@ It combines **Large Language Models (LLMs)** with a **Vector Database (Chroma)**
 
 ## 🧩 Project Architecture
 
-```mermaid
-flowchart TD
-    A["📄 PDF Upload"] --> B["📚 Document Loader<br/>(LangChain)"]
-    B --> C["✂️ Text Splitter"]
-    C --> D["🔢 HuggingFace Embeddings"]
-    D --> E["💾 Chroma Vector DB<br/>(Persistent Storage)"]
-    E --> F["🔍 Retriever"]
-    F --> G["🧠 Google Gemini LLM"]
-    G --> H["💬 Gradio Frontend Chatbot"]
-    H --> I["👤 User Interaction"]
-
+📄 PDF Upload
+⬇️
+📚 Document Loader (LangChain)
+⬇️
+✂️ Text Splitter
+⬇️
+🔢 HuggingFace Embeddings
+⬇️
+💾 Chroma Vector Database (Persistent Storage)
+⬇️
+🔍 Retriever
+⬇️
+🧠 Google Gemini LLM
+⬇️
+💬 Gradio Frontend Chatbot
+⬇️
+👤 User Interaction
 
 
 ## 💡 Core Functionalities
