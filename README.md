@@ -116,7 +116,8 @@ Open the link in your terminal (`http://127.0.0.1:7860`) to chat with your bot.
 
 ## 🖼️ Demo Preview
 
-*(Insert screenshots or GIFs of your chatbot interface here)*
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1f846536-c2f2-4398-ad7b-166987820c70" />
+
 
 ---
 
