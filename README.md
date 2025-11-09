@@ -145,7 +145,6 @@ Open the link in your terminal (`http://127.0.0.1:7860`) to chat with your bot.
 ## ⚖️ License
 
 This project is licensed under the **MIT License** — you’re free to use and modify it with attribution.
-(You can switch to Apache-2.0 if you want stronger protection for derivative works.)
 
 ---
 
