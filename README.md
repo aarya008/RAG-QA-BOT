@@ -37,17 +37,15 @@ It combines **Large Language Models (LLMs)** with a **Vector Database (Chroma)**
 
 ```mermaid
 flowchart TD
-A[PDF Upload] --> B[Document Loader (LangChain)]
-B --> C[Text Splitter]
-C --> D[HuggingFace Embeddings]
-D --> E[Chroma Vector DB (Persistent)]
-E --> F[Retriever]
-F --> G[Google Gemini LLM]
-G --> H[Gradio Frontend Chatbot]
-H --> I[User Interaction]
-```
+    A[PDF Upload] --> B[Document Loader (LangChain)]
+    B --> C[Text Splitter]
+    C --> D[HuggingFace Embeddings]
+    D --> E[Chroma Vector DB (Persistent)]
+    E --> F[Retriever]
+    F --> G[Google Gemini LLM]
+    G --> H[Gradio Frontend Chatbot]
+    H --> I[User Interaction]
 
----
 
 ## 💡 Core Functionalities
 
