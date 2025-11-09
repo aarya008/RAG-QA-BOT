@@ -151,9 +151,9 @@ This project is licensed under the **MIT License** — you’re free to use and 
 ## 👨‍💻 Author
 
 **Aarya Tagare**
-🎓 Electrical Engineer | 💡 AI & Cybersecurity Enthusiast | ⚙️ Embedded Systems Developer
+🎓 Electrical Engineer | 💡 Passionate about AI, ML, and Generative AI | Exploring Agentic AI Systems & Intelligent Automation 
 📍 Kolhapur, India
-🔗 [LinkedIn](https://www.linkedin.com) • [GitHub](https://github.com/your-username) • [Email](mailto:your-email@example.com)
+🔗 [LinkedIn](www.linkedin.com/in/aary-tagare14) • [GitHub](https://github.com/aarya008) • [Email](mailto:tagareaary@gmail.com)
 
 ---
 
