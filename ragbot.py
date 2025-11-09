@@ -54,7 +54,7 @@ def get_file_hash(file_path):
 
 ## LLM
 def get_llm():
-    GOOGLE_API_KEY="AIzaSyAjFwYvWGe9efXx4RnqSfQXbA6Iz_zDkj8"
+    GOOGLE_API_KEY="YOUR_API_KEY"
     return ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.1, api_key =GOOGLE_API_KEY)
 
 ## Embedding
@@ -290,5 +290,6 @@ with gr.Blocks() as demo:
         inputs=[retriever_state, vectordb_state],
         outputs=[chatbot_component, question_textbox, retriever_state, vectordb_state, upload_status_textbox]
     )
+
 
 demo.launch(share=False, server_name="127.0.0.1", server_port=7860)
